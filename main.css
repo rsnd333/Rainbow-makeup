@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#all{
+    background-color: #f2f4f3 ;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+
+header > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header, footer {
+    background-color: #0d1321;
+    padding-top: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav li {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: #adb5bd;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cores a{
+    color: #0d1b2a;
+} 
+
+#sobre h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: solid 3px #f49cbb ;
+}
+
+#sobre p{
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#sobre{
+    margin-top: 70px;
+}
+
+#sobre img{
+    width: 540px;
+    height: 600px;
+    margin-right: 45px;
+    object-fit: cover;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.maquiagem-promo h2{
+    border-bottom: solid 3px #f49cbb ;
+}
+
+
+
+.gloss{
+    display:grid;
+    grid-template-columns: repeat(4, 24.6%);
+    column-gap: 0.5%;
+}
+
+.gloss li img{
+    width: 400px;
+    height: 320px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gloss li{
+    list-style: none;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.gloss li h3{
+    margin: 16px 0;
+}
+
+.gloss li strong{              
+    margin: 16px 0;
+    display: block;
+}
+
+.price{
+    margin: 16px 0;
+    display: block;
+}
+
+.price del{
+    color: #4b474a;
+    font-size: 14px;
+}
+
+button{
+    display: block;
+    width: 70%;
+    padding: 10px 0;
+    border: none;
+    background-color:#000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: #272727;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
+}
+
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width:767px) {
+    
+    .container{
+        max-width: 90%;
+    }
+
+    header > .container{
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+    
+    header h1{
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    
+    header, footer {
+        background-color: #0d1321;
+        padding-top: 25px;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    header nav li {
+        display: inline;
+        padding: 10px;
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+    
+    header nav li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    header nav li a:hover{
+        color: #adb5bd;
+    }
+    
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .conteudo-sobre{
+        display: block;
+    }
+
+    #sobre h2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-bottom: solid 2px #f49cbb ;
+    }
+    
+    #sobre p{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    
+    #sobre{
+        margin-top: 25px;
+        display: block;
+    }
+    
+    #sobre img{
+        width: 330px;
+        height: 370px;
+        margin-right: 15px;
+        margin-bottom: 25px;
+        object-fit: cover;
+    }
+
+    .nars{
+        margin: 0;
+    }
+
+    .gloss{
+        display: block;
+    }
+
+    .gloss li img{
+        width: 350;
+        height: 300px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    
+    .gloss li{
+        list-style: none;
+        max-width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    .gloss li h3{
+        margin: 16px 0;
+    }
+    
+    .gloss li strong{              
+        margin: 16px 0;
+        display: block;
+    }
+    
+    .price{
+        margin: 16px 0;
+        display: block;
+    }
+    
+    .price del{
+        color: #4b474a;
+        font-size: 14px;
+    }
+
+    button{
+        display: block;
+        width: 80%;
+        padding: 10px 0;
+        border: none;
+        background-color:#000000;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+    
+    button:hover{
+        background-color: #272727;
+    }
+    
+    footer p{
+        font-size: 11px;
+    }
+
+    footer li{
+        list-style: none;
+    }
+    
+    footer li img{
+        height: 20px;
+    }
+    
+    footer .container{
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .container{
+        max-width: 90%;
+    }
+    
+    header > .container{
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+    
+    header h1{
+        font-weight: bolder;
+        font-size: 45px;
+    }
+    
+    header, footer {
+        background-color: #0d1321;
+        color: #fff;
+        font-weight: 30px;
+    }
+    
+    header nav li {
+        display: inline;
+        padding: 20px;
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+    
+    header nav li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    header nav li a:hover{
+        color: #adb5bd;
+    }
+    
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .conteudo-sobre{
+        display: block;
+    }
+
+    #sobre h2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-bottom: solid 2px #f49cbb ;
+    }
+    
+    #sobre p{
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    
+    #sobre{
+        margin-top: 25px;
+        display: block;
+    }
+    
+    #sobre img{
+        width: 680px;
+        height: 400px;
+        margin-right: 15px;
+        margin-bottom: 25px;
+        object-fit: cover;
+    }
+
+    .nars{
+        margin: 0;
+    }
+
+    .maquiagem-promo h2{
+        border-bottom: solid 3px #f49cbb;
+        font-size: 35px;
+    }
+
+    .gloss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gloss li img{
+        width: 590px;
+        height: 550px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    
+    .gloss li{
+        list-style: none;
+        max-width:90%;
+        margin-bottom: 100px;
+    }
+    
+    .gloss li h3{
+        margin: 16px 0;
+        font-size: 30px;
+    }
+
+    .cores a{
+        color: #0d1b2a;
+        font-size: 20px;
+    } 
+
+    .gloss p{
+        font-size: 25px;
+    }
+    
+    .gloss li strong{              
+        margin: 16px 0;
+        display: block;
+        font-size: 23px;
+    }
+    
+    .price{
+        margin: 16px 0;
+        display: block;
+    }
+    
+    .price del{
+        color: #4b474a;
+        font-size: 14px;
+        font-size: 20px;
+    }
+
+    button{
+        display: block;
+        width: 80%;
+        padding: 10px 0;
+        border: none;
+        background-color:#000000;
+        color: #fff;
+        font-size:20px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+    
+    button:hover{
+        background-color: #272727;
+    }
+    
+    footer p{
+        font-size: 18px;
+    }
+
+    footer li{
+        list-style: none;
+    }
+    
+    footer li img{
+        height: 25px;
+    }
+    
+    footer .container{
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom:17px;
+    }
+}
